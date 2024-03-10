@@ -1,0 +1,4 @@
+# redis configuration
+redis.host=
+redis.port=
+redis.password=
