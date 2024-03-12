@@ -1,4 +1,17 @@
+# MysQL configuration
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+
 # redis configuration
+redis.user=
 redis.host=
 redis.port=
 redis.password=
+
+# JWT(Json Web Token) configuration
+jwt_access.secret=
+
+# 포트 번호
+server.port=
