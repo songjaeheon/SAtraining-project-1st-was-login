@@ -22,7 +22,7 @@ import com.footballmania.waslogin.util.JwtTokenUtil;
 @Component
 public class JwtFilter extends OncePerRequestFilter {
     
-    private String accessTokenCookieName = "SC_access_token";
+    private String accessTokenCookieName = "YL_access_token";
 
     @Autowired
     private CustomUserDetailsService userDetailsService;
